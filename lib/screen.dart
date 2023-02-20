@@ -17,6 +17,7 @@ class _HomeState extends State<Home> {
             Container(
               height: double.infinity,
               width: double.infinity,
+              alignment: Alignment.topCenter,
               child: Image.asset("assets/images/b2.jpg"),
             ),
             Align(
@@ -113,7 +114,7 @@ class _HomeState extends State<Home> {
                     height: 110,
                   ),
                   CircleAvatar(
-                    backgroundImage: AssetImage("assets/images/dp.jpg"),
+                    backgroundImage: AssetImage("assets/images/dp.jpeg"),
                     radius: 40,
                   ),
                   SizedBox(
